@@ -131,6 +131,21 @@ section#projects h2 {
     color: #000;
 }
 
+.tags {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tags li {
+    display: inline-block;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 0.9em;
+    color: antiquewhite;
+}
+
 section#skills h2 {
     color: antiquewhite;
     text-align: center;
@@ -178,6 +193,7 @@ form {
 
 form label {
     margin: 0.5rem 0;
+    color: #fff;
 }
 
 form input, form textarea {
