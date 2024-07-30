@@ -48,7 +48,6 @@ nav ul li a {
     color: antiquewhite;
     text-decoration: none;
     transition: color 0.3s ease;
-    margin-left: 20px;
 }
 
 nav ul li a:hover {
@@ -238,5 +237,9 @@ footer {
 
     section#skills ul {
         flex-direction: column;
+    }
+
+    nav ul li a {
+        margin-left: 20px;
     }
 }
