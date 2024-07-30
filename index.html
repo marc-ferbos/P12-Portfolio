@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <h1>Mon Portfolio</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about">
+            <div class="about-content">
+                <img src="./images/marc-ferbos.jpg" alt="Marc Ferbos" />
+                <h1>Bonjour, Je suis Marc Ferbos</h1>
+                <p>
+                    Je suis développeur web junior. J'ai commencé à apprendre le
+                    développement web il y a quelques mois et je suis
+                    actuellement en formation chez OpenClassrooms. Je souhaite
+                    mettre en pratique mes compétences et travailler sur des
+                    projets intéressants afin de développer mes compétences.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Mes Projets</h2>
+            <div class="CardAll">
+                <div class="Cardproject">
+                    <a
+                        href="https://github.com/marc-ferbos/Booki_Final2.0"
+                        target="_blank"
+                    >
+                        <h3>
+                            Créez la page d'accueil d une agence de voyage avec
+                            HTML & CSS
+                        </h3>
+                        <p>
+                            Intégrez la maquette du site d'une agence de voyage
+                        </p>
+                        Projet Booki</a
+                    >
+                </div>
+                <div class="Cardproject">
+                    <a
+                        href="https://github.com/marc-ferbos/OhmyFood"
+                        target="_blank"
+                    >
+                        <h3>
+                            Améliorez l'interface d un site mobile avec des
+                            animations CSS
+                        </h3>
+                        <p>
+                            Intégrez la maquette du site OhMyFood en utilisant
+                            les animations CSS
+                        </p>
+                        Projet OhMyFood</a
+                    >
+                </div>
+                <div class="Cardproject">
+                    <a
+                        href="https://github.com/marc-ferbos/PremiersPasJSp5"
+                        target="_blank"
+                    >
+                        <h3>Premiers pas sur le langage JavaScript</h3>
+                        <p> Dynamiser un site web statique avec des animations JS</p>
+                        Projet Javascript</a
+                    >
+                </div>
+                <div class="Cardproject">
+                    <a
+                        href="https://github.com/marc-ferbos/P6Javascript1er"
+                        target="_blank"
+                    >
+                        <h3>Créez une page web dynamique avec JavaScript</h3>
+                        <p> Amélioration d'un site portfolio avec JavaScript</p>
+                        Projet Javascript 2</a
+                    >
+                </div>
+                <div class="Cardproject">
+                    <a
+                        href="https://github.com/marc-ferbos/kasa"
+                        target="_blank"
+                    >
+                        <h3>
+                            Créez une application web de location immobilière
+                            avec React
+                        </h3>
+                        <p> Développement d'une application web avec React</p>
+                        Projet Kasa</a
+                    >
+                </div>
+                <div class="Cardproject">
+                    <a href="https://github.com/marc-ferbos/RepoNinaCarducci">
+                        <h3>
+                            Optimisez le référencement d'un site de photographe
+                        </h3>
+                        <p> Optimisation du référencement d'un site web</p>
+                        Projet Référencement</a
+                    >
+                </div>
+                <div class="Cardproject">
+                    <a
+                        href="https://github.com/marc-ferbos/Debogage"
+                        target="_blank"
+                    >
+                        <h3>Débuggez le site d'une agence d'événementiel</h3>
+                        <p> Débogage d'un site web</p>
+                        Projet Débogage</a
+                    >
+                </div>
+                <div class="Cardproject">
+                    <a
+                        href="https://github.com/marc-ferbos/P11-Bank"
+                        target="_blank"
+                    >
+                        <h3>
+                            Implémentez le front-end d'une application bancaire
+                            avec React
+                        </h3>
+                        <p> Développement d'une application bancaire avec React et Redux</p>
+                        Projet Bank</a
+                    >
+                </div>
+                <div class="Cardproject">
+                    <h3>Créez et publiez votre portfolio de développeur</h3>
+                    <p> Développement de mon portfolio</p>
+                    <a href="#" target="_blank">Lien</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Compétences</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Sass</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Redux</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="mailto" method="post" enctype="text/plain">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Marc Ferbos</p>
+            <p>&copy; Copyright portfolio 2024 All rights reserved</p>
+        </footer>
+    </body>
+</html>

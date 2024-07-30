@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "kanit", sans-serif;
+}
+
+body {
+    background-color: #1C2842;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    width: 100%;
+    background-color: #1C2842;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 1rem;
+    color: antiquewhite;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    font-size: 25px;
+    color: antiquewhite;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-left: 20px;
+}
+
+nav ul li a:hover {
+    color: #3cc110;
+}
+
+section#about {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+section#about h1 {
+    color: antiquewhite;
+    margin-bottom: 0.5rem;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-content h1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+    color: antiquewhite;
+}
+
+.about-content p {
+    color: antiquewhite;
+    margin-top: 2rem;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+section#projects .project {
+    margin: 1rem;
+}
+
+section#projects h2 {
+    color: antiquewhite;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 40px;
+}
+
+.CardAll {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Cardproject {
+    background: #ffffff;
+    margin: 1rem;
+    padding: 1rem;
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Cardproject:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.Cardproject h3 {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.Cardproject a {
+    text-decoration: none;
+    color: #000;
+}
+
+section#skills h2 {
+    color: antiquewhite;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 40px;
+}
+
+section#skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+section#skills ul li {
+    background: black;
+    color: antiquewhite;
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+section#contact {
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    margin-bottom: 2rem;
+}
+
+section#contact h2 {
+    color: antiquewhite;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 40px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form button {
+    background: #000;
+    color: #fff;
+    padding: 0.7rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background: #000;
+}
+
+form button:active {
+    transform: scale(0.95);
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #000;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+    }
+    
+    form {
+        width: 100%;
+    }
+
+    header {
+        padding: 20px 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content h1 {
+        font-size: min(5vw, 30px);
+    }
+
+    .about-content p {
+        font-size: min(4vw, 20px);
+    }
+
+    section#skills ul {
+        flex-direction: column;
+    }
+}
